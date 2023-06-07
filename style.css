@@ -12,7 +12,8 @@ body {
   flex-direction: column;
   justify-content: space-between;
   height: 790px;
-  color: #222;
+  color: #ddd;
+  background-color: #222;
 }
 
 header {
@@ -30,6 +31,7 @@ header nav {
 
 header nav a {
   text-decoration: none;
+  color: #777;
 }
 
 header svg {
@@ -79,7 +81,7 @@ main form input {
 }
 
 main form:hover {
-  background-color: #ddd;
+  background-color: #444;
 }
 
 main form svg {
@@ -101,7 +103,7 @@ main > div {
 }
 
 main > div p {
-  background-color: #ddd;
+  background-color: #555;
   padding: 10px 20px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -116,12 +118,16 @@ main > p {
 }
 
 main > p span {
-  color: #124dff;
+  color: #3a66eb;
   cursor: pointer;
 }
 
+hr {
+  border-color: #777;
+}
+
 footer {
-  background-color: #ddd;
+  background-color: #222;
   padding: 15px;
 }
 
@@ -140,5 +146,5 @@ footer .row {
 footer .row a {
   text-decoration: none;
   margin: 3px;
-  color: #124dff;
+  color: #ddd;
 }
