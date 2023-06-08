@@ -90,8 +90,9 @@ main form svg {
 }
 
 main form div img {
-  width: 25px;
+  width: 10px;
   cursor: pointer;
+  margin: 5px;
 }
 
 main > div {
